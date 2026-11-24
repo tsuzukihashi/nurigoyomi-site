@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja" data-title-ja="使い方とお問い合わせ - ぬりごよみ" data-title-en="Help &amp; Contact - Nurigoyomi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var l=navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||"ja"],p="en";for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase();if(c.indexOf("ja")===0){p="ja";break}if(c.indexOf("en")===0){p="en";break}}var d=document.documentElement;d.lang=p;var t=d.getAttribute("data-title-"+p);if(t){document.title=t}})();</script>
+<title>使い方とお問い合わせ - ぬりごよみ</title>
+<meta name="description" content="ぬりごよみの使い方（札で始める・止める・すき間を塗る・記録を直す・合計・やること・CSV と .ics）とよくあるご質問、お問い合わせ。 / How to use Nurigoyomi (start and stop with cards, fill gaps, edit entries, totals, activities, CSV and .ics), FAQ and contact.">
+<meta property="og:title" content="使い方とお問い合わせ - ぬりごよみ">
+<meta property="og:description" content="ぬりごよみの使い方（札で始める・止める・すき間を塗る・記録を直す・合計・やること・CSV と .ics）とよくあるご質問、お問い合わせ。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nurigoyomi.tsuzukit.com/support.html">
+<meta property="og:image" content="https://nurigoyomi.tsuzukit.com/assets/og.jpg">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div data-l="ja" lang="ja">
+<header class="site"><div class="wrap">
+<a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">ぬりごよみ</a>
+<nav class="site"><a href="./">紹介</a><a href="support.html">使い方</a><a href="privacy.html">プライバシー</a></nav>
+</div></header>
+<main class="wrap">
+<article class="doc">
+<p class="eyebrow">HELP</p>
+<h1>使い方とお問い合わせ</h1>
+<h2>1. はじめる</h2>
+<p>はじめに、よく使うやること（睡眠・仕事・勉強・家事・移動・食事・休憩・運動）から選びます。選んだやることが、ホームの札になります。</p>
+<h2>2. 始める・止める・切りかえる</h2>
+<p>札を押すと記録が始まり、ホームのいちばん上に経過時間と［止める］が出ます。同じ札をもう一度押すか［止める］で止まります。動いているときに別の札を押すと、前の記録をいまで止めて、次をそのまま始めます。同時に2つは動きません。押してすぐ押し直した、0秒の記録は残しません。</p>
+<h2>3. 今日の帯・日ごとの帯</h2>
+<p>ホームの［今日の帯］は、0:00〜24:00 の縦の帯に、記録をやることの色で塗ったものです。いまの時刻に朱の線が引かれます。上の［日ごとの帯］では、‹ › か左右のスワイプで前の日の帯と、その日の合計を見られます。0時をまたいだ記録は、両方の日の帯に分けて塗ります。</p>
+<h2>4. すき間を塗る・記録を直す</h2>
+<p>帯の点線のところ（1分以上の空き）を押すと、そのすき間にぴったりの記録を足せます。帯の記録を押すと、やること・始まり・終わりを直せます。時刻は −5分・−1分・＋1分・＋5分のボタンで動かします（秒は 0 にそろい、いまより先にはなりません）。ほかの記録と重なる時刻では保存されず、重なる相手が出ます。</p>
+<h2>5. 合計</h2>
+<p>上の［合計］で、今日・7日・30日を切りかえて、やることごとの合計を棒と表で見られます。合計は分まで表示します（秒は切り捨て）。</p>
+<h2>6. やること</h2>
+<p>設定の［やること］で、名前（20文字まで）・色（8色）・形（12）を直す・足す・並べかえる（［編集］）・しまうができます。しまったやることは札に出ませんが、前の記録と合計には残ります。</p>
+<h2>7. 記録を残す・持ち出す</h2>
+<p>設定の［CSV で書き出す］［CSV を読みこむ］［カレンダーの形（.ics）で書き出す］。CSV の1行目は「開始,終了,やること」（英語の start,end,activity も読めます）で、時刻は「2026-11-25 09:00」の形です。読みこむとき、名前の無いやることは作り、同じやること・同じ始まりの記録は二重に入れず、ほかの記録と重なる記録と読めない行は数を知らせて入れません。.ics はカレンダーのアプリに読みこめます（動いている記録は入りません）。</p>
+<h2>よくあるご質問</h2>
+<h3>記録を消してしまいました</h3>
+<p>ゴミ箱に入れた記録は、設定の［ゴミ箱］に30日のあいだ残ります。［戻す］で戻せます（同じ時刻にほかの記録があれば、先にその記録の時刻を直してください）。</p>
+<h3>標準のカレンダーに自動で書けますか</h3>
+<p>1.0 では、カレンダーの形（.ics）で書き出して、カレンダーのアプリで読みこむ形です。カレンダーの許可は使いません。</p>
+<h3>記録はどこに保存されますか</h3>
+<p>端末の中だけです（端末のバックアップには入ります）。開発者には届きません。</p>
+<h2>お問い合わせ</h2>
+<p><a href="mailto:ryo.tsuzukihashi@tsuzukit.com">ryo.tsuzukihashi@tsuzukit.com</a>（日本語・英語）</p>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+<p><a href="./">紹介</a><a href="support.html">使い方とお問い合わせ</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></p>
+<p>ぬりごよみは、個人開発者の續橋涼（TsuzuKit）が作っているアプリです。</p>
+<p>© 2026 TsuzuKit</p>
+</div></footer>
+</div>
+<div data-l="en" lang="en">
+<header class="site"><div class="wrap">
+<a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">Nurigoyomi</a>
+<nav class="site"><a href="./">About</a><a href="support.html">Help</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+<main class="wrap">
+<article class="doc">
+<p class="eyebrow">HELP</p>
+<h1>Help &amp; Contact</h1>
+<h2>1. Getting started</h2>
+<p>First, pick the activities you do often (Sleep, Work, Study, Chores, Commute, Meals, Break, Exercise). Each one becomes a card on Home.</p>
+<h2>2. Start, stop and switch</h2>
+<p>Tap a card to start an entry; the elapsed time and a Stop button appear at the top of Home. Tap the same card again or Stop to stop it. Tap another card while one is running to stop the current entry now and start the next. Only one entry runs at a time. An entry of zero seconds (tapped twice quickly) is not kept.</p>
+<h2>3. Today's timeline and the daily timeline</h2>
+<p>Today's timeline on Home is a vertical strip from 0:00 to 24:00, with entries painted in their activity's color and a vermilion line at the current time. The daily timeline (calendar icon at the top) shows earlier days and their totals; use ‹ › or swipe. An entry that crosses midnight is painted on both days.</p>
+<h2>4. Fill a gap, edit an entry</h2>
+<p>Tap a dashed part of the timeline (a gap of a minute or more) to add an entry that fits it exactly. Tap an entry to change its activity, start or end. Times move with -5, -1, +1 and +5 minute buttons (seconds go to 0, and never past now). If the new time overlaps another entry, it is not saved and that entry is shown.</p>
+<h2>5. Totals</h2>
+<p>Totals (bar chart icon) switches between today, 7 days and 30 days, with bars and a table per activity. Totals are shown to the minute (seconds are dropped).</p>
+<h2>6. Activities</h2>
+<p>In Settings &gt; Activities you can change names (up to 20 characters), colors (8) and symbols (12), add, reorder (Edit) and put away. A put-away activity has no card, but its past entries and totals stay.</p>
+<h2>7. Keep and move your entries</h2>
+<p>Settings has Export CSV, Import CSV and Export as Calendar File (.ics). The CSV's first line is "start,end,activity" (the Japanese header is also read), with times like "2026-11-25 09:00". On import, missing activities are created, duplicates (same activity and start) are not added twice, and overlapping entries and unreadable rows are counted and skipped. Calendar apps can open the .ics file (a running entry is not included).</p>
+<h2>FAQ</h2>
+<h3>I deleted an entry</h3>
+<p>Entries in Trash stay in Settings &gt; Trash for 30 days. Tap Restore (if another entry covers the same time, change that entry's time first).</p>
+<h3>Can it write to my calendar automatically?</h3>
+<p>In 1.0 you export a calendar file (.ics) and open it in your calendar app. No calendar permission is used.</p>
+<h3>Where are my entries stored?</h3>
+<p>Only on your device (they are included in device backups). They never reach the developer.</p>
+<h2>Contact</h2>
+<p><a href="mailto:ryo.tsuzukihashi@tsuzukit.com">ryo.tsuzukihashi@tsuzukit.com</a> (Japanese or English)</p>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+<p><a href="./">About</a><a href="support.html">Help & Contact</a><a href="terms.html">Terms of Use</a><a href="privacy.html">Privacy Policy</a></p>
+<p>Nurigoyomi is made by Ryo Tsuzukihashi, an independent developer (TsuzuKit).</p>
+<p>© 2026 TsuzuKit</p>
+</div></footer>
+</div>
+</body>
+</html>
